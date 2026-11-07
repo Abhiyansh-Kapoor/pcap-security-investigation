@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+pcap_investigator/output/
+pcap_investigator/pcaps/https_lab_capture*.pcapng
+pcap_investigator/pcaps/live_*.pcapng
+pcap_investigator/pcaps/real_formbook_2026.pcap
+pcap_investigator/pcaps/published_*.pcap
+pcap_investigator/tools/wireshark/
+*.db

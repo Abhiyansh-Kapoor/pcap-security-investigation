@@ -1,0 +1,14 @@
+{
+  "malicious_destinations": [
+    "185.234.72.19",
+    "cdn-update-check.net",
+    "91.215.85.40",
+    "45.137.21.9"
+  ],
+  "description": {
+    "185.234.72.19": "C2 beacon (HTTP/1.0 POST, encrypted body, every 60s)",
+    "cdn-update-check.net": "Stealthy C2 beacon with browser-like headers (every 120s)",
+    "91.215.85.40": "Second-stage .exe downloader (3 retries)",
+    "45.137.21.9": "High-entropy data exfiltration"
+  }
+}
