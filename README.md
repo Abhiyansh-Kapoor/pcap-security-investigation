@@ -11,9 +11,3 @@ The website contains saved reports. GitHub Pages cannot run the Python capture o
 The two generated Scapy fixtures, `normal_browsing.pcap` and `infected_host.pcap`, and their labels are included for controlled tests. Run `python -m unittest discover -s tests` from `pcap_investigator` to run the case guidance tests. The generated captures are for testing; their performance numbers are not a field accuracy estimate.
 
 The mitigation column provides investigation advice. The program does not block traffic. The local HTTPS capture is a controlled test; its TLS secrets are saved in the local PCAPNG so Wireshark can decode it. The flood is one-source DoS test traffic, not DDoS or a demonstrated outage.
-
-## Contributors
-
-- Abhiyansh Kapoor: case report and local HTTPS capture.
-- Saniya Taneja: published traffic analysis, request checks, and repeated-pattern analysis.
-- Tanvi Kavi: report UI, SQLite storage, generated test traffic, and tests.
